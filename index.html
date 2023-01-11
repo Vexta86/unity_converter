@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./design.css">
+    <title>MKS</title>
+</head>             
+<body>
+
+    <section id="encabezado">
+        <h1>Convertidor</h1>
+        <button id="boton-longitud" class="boton-encabezado">Longitud</button>
+        <button id="boton-masa" class="boton-encabezado">Masa</button>
+        <button id="boton-tiempo" class="boton-encabezado">Tiempo</button>
+    </section>
+    
+    <section id="seccion-convertidor">
+        <label id = "unidad-medida" for="numero-usuario"></label>
+        <input type="number" id="numero-usuario" class="numero-usuario"min="0" max=" ">
+        <p class="de">De</p>
+        <select id="lista-medidas-origen" name="lista-medidas-origen" class="medidas-origen">
+
+        </select>
+        <p class="a">A</p>
+
+        <select id="lista-medidas" name="lista-medidas" class="medidas-finales">
+
+        </select>
+        <button id="boton-convertir" img> Convetir </button>
+        <button id="intercambiar"> 
+            <img src="./media/cambio.png" alt="intercambiar">    
+        </button>
+
+        <p id="resultado" class="resultado"></p>
+
+        <button id="formula">
+            <img src="./media/questionmarkcircleoutline_110819.png" alt="?">
+        </button>
+
+    </section>
+
+
+    
+
+    
+
+
+</body>
+
+</html>
